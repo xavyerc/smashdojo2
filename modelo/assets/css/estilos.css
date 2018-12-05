@@ -1,0 +1,79 @@
+.container-fluid{
+    
+}
+html, body {
+    position: relative;
+    height: 100%;
+  }
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#fff;
+    background: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    background: #000;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #000;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .navbar, .navbar-nav, .navy{
+    background: #f00;
+    color: #eee !important;
+    font-weight: bolder;
+  }
+
+  .titulos{
+    color: #fff;
+    background: #000;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .name{
+    color: #fff;
+    background: #000;
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  .parallax{ 
+    /* The image used */
+    background: url("../images/smash.jpg");
+
+    /* Set a specific height */
+    width: 100%;
+    height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+  background: #f00;
+}
